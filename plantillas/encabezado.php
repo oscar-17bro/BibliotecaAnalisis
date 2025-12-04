@@ -56,6 +56,9 @@ if (isset($_SESSION['usuario'])) {
             <li class="nav-item">
               <a class="nav-link" href="<?php echo URL_BASE; ?>/prestamos/listar.php">Préstamos</a>
              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="<?php echo URL_BASE; ?>/reportes/listar.php">Reportes</a>
+            </li>
 
         <?php endif; ?>
 

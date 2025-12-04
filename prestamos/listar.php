@@ -33,6 +33,7 @@ $res = $stmt->get_result();
   <?php if ($rol == 1 || $rol == 2): ?>
     <a class="btn btn-success" href="crear.php">+ Prestar libro</a>
     <a class="btn btn-info" href="cron.php">+ generar notificacion</a>
+    <a class="btn btn-outline-dark" href="reporte_mensual.php">Reportes</a>
   <?php endif; ?>
 
 </div>

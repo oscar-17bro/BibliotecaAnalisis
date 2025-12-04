@@ -25,10 +25,11 @@ $res = $stmt->get_result();
 ?>
 
 <div class="d-flex justify-content-between align-items-center mb-3">
-  <h2>Usuarios</h2>
- <a class="btn btn-info" href="historial.php">historial</a>
+  <h2>Usuarios</h2>
+  <a class="btn btn-info" href="historial.php">historial</a>
   <a class="btn btn-danger" href="notificaciones.php">Notificacion</a>
-  
+  <a class="btn btn-outline-dark" href="reporte_actividad.php">Reportes</a>
+  
   <?php if ($puedeAdministrar): // Muestra el botón Crear solo para Roles 1 y 2 ?>
     <a class="btn btn-success" href="crear.php">+ Crear usuario</a>
 
